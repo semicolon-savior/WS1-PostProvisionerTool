@@ -1,0 +1,31 @@
+{
+  "ApiUrl": "https://your.api.url",
+  "Username": "apiadmin",
+  "LogFilePath": "C:\\ProgramData\\PostProvisioningTool\\Log\\PostProvisioningTool.log",
+  "RegistryPath": "SOFTWARE\\Omnissa\\PostProvisioningTool",
+  "DeviceLocationCsv": "Location,Type,Subtype,Detail,Detail 2\nUSA,Miami,HQ,Floor 14,NW\nUSA,Dallas,Factory,Loading Dock,\nMexico,Mexico City,Floor 2,NW,\nUSA,Miami,HQ,Floor 13,NE\nUSA,Miami,HQ,Floor 13,NW\nUSA,Dallas,Factory,Floor 1,\nMexico,Mexico City,Floor 2,NE,",
+  "DeviceTagCsv": "DeviceTag,Tag ID\nLoading Dock,1234\nIT Developer,1235\nDock,1236\nELT,1237",
+  "DeviceLocationCsvMode": "Upload",
+  "DeviceLocationCsvPath": "C:\\ProgramData\\PostProvisioningTool\\DeviceLocationCsv.csv",
+  "DeviceTagCsvMode": "Upload",
+  "DeviceTagCsvPath": "C:\\ProgramData\\PostProvisioningTool\\DeviceTagCsv.csv",
+  "DebugMode": false,
+  "FeatureToggles": {
+    "EnableTechnicianId": true,
+    "EnableHostnameChange": true,
+    "EnableDeviceTagging": true,
+    "EnableWs1CheckIn": true,
+    "EnableRegistryWrite": true,
+    "EnableConnectivityCheck": true,
+    "EnableSerialDetection": true,
+    "EnableApiCheck": true,
+    "EnableWindowsUpdate": true,
+    "EnableHubReinstall": true,
+    "EnableHubValidation": true,
+    "EnableFinalRegistryWrite": true,
+    "EnableDebug": false
+  },
+  "EncodedPassword": "YXBpcGFzc3dvcmQ=",
+  "EncodedTenantCode": "dGVuYW50Y29kZQ==",
+  "EncodedAdminPassword": "T21uaXNzYQ=="
+}
